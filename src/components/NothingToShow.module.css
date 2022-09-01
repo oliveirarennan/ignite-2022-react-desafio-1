@@ -1,0 +1,28 @@
+.NothingToShow{
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.NothingToShow img {
+  margin-top: 4rem;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.texts{
+  color: var(--gray-300);
+  line-height: 140%;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+.texts span{
+  display: block;
+  font-weight: 400;
+}

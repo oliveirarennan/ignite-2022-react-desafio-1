@@ -1,0 +1,47 @@
+.Tasks{
+  max-width: 46rem;
+  width: 100%;
+}
+
+.Tasks header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Tasks header div{
+  margin: 0;
+  
+}
+
+.createdTasksLabel{
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 140%;
+}
+
+.finishedTasksLabel{
+  color: var(--purple);
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 140%;
+}
+
+.tasksCounter{
+  margin-left: 0.5rem;
+  width: 1.5625rem;
+  border-radius: 999px;
+  background: var(--gray-400);
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.125rem 0.5rem;
+}
+
+.Tasks main {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+ 
+}
