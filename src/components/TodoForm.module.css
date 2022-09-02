@@ -36,8 +36,17 @@
   justify-content: center;
   gap: 0.5rem;
   cursor: pointer;
+  transition: 350ms;
 }
 
 .TodoForm button:hover{
   background: var(--blue);
+}
+
+.TodoForm button:disabled{
+  cursor: not-allowed;
+}
+
+.TodoForm button:disabled:hover{
+  background: var(--blue-dark);
 }
